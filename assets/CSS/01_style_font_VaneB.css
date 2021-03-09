@@ -1,0 +1,23 @@
+body{
+    background-color:#E5E5FF;
+}
+
+h1 {
+    color:#72727f;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'DotGothic16', sans-serif;
+}
+
+h2 {
+    color:#72727f;
+    font-size: 60px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+h3 {
+    color:#72727f;
+    text-align: right;
+    font-size: 80px;
+    font-family: 'Titillium Web', sans-serif;
+}
