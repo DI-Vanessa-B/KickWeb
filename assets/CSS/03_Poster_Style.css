@@ -5,24 +5,30 @@
     position: absolute; top: 260px; left: 50px;
     text-align: right;
     font-size: 13px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Hind Madurai', sans-serif;
     size: 8px;
+    line-height: 2;
 }
 
 .text2{
     color: black;
-    position: absolute; top: 234px; left: 80px;
+    position: absolute; top: 243px; left: 120px;
     font-size: 26px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Hind Madurai', sans-serif;
+    line-height: 1;
 }
 
 .text3{
     color: black;
     position: absolute; top: 495px; left: 120px;
     font-size: 13px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Hind Madurai', sans-serif;
     size: 8px;
+    line-height: 1.2;
 }
+
+
+
 
 .block1{
     background-color: #f27920;
