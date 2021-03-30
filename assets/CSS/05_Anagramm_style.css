@@ -1,0 +1,70 @@
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color:darkgrey;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: row;
+}
+
+.letter{
+    height:auto;
+    width: 30%;
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: center;
+    font-size: 200%;
+    font-family: 'Staatliches', cursive;
+    border-style:solid; 0.5px;
+    order:inherit;
+}
+
+/*change to HAFERBREI*/
+@media screen and (max-width: 750px){
+    #B{
+        order: -4;
+        background-color:#842d60;
+    }
+
+    #E1{
+        order: -6;
+        background-color: #71355d;
+    }
+
+    #I{
+        order: -1;
+        background-color: #a12166;
+    }
+
+    #F{
+        order: -7;
+        background-color: #67385b;
+    }
+
+    #A{
+        order: -8;
+        background-color: #5e3c59;
+    }
+
+    #H{
+        order: -9;
+        background-color: #544057;
+    }
+
+    #R1{
+        order: -5;
+        background-color: #7b315e;
+    }
+
+    #E2{
+        order: -2;
+        background-color: #982564;
+    }
+
+    #R2{
+        order: -3;
+        background-color: #8e2962;
+    }
+}
