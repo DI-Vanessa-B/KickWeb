@@ -1,0 +1,136 @@
+.container{
+    /*background-color: darkgray;*/
+    height: 100vh;
+    width: 100%; /*2020px*/
+    display: flex;
+    justify-content: center;
+}
+
+/*poster size 600x860px*/
+
+.ablock{
+    background-color: #fffcdb;
+    width: 30%;
+    height: 90%;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+/*orange blocks*/
+.b1{
+    background-color: #f27920;
+    height: 55%;
+    width: 50%;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*namen*/
+
+.vorname{
+    color: black;
+    text-align: right;
+    font-size: 55%;
+    font-family: 'Rubik', sans-serif;
+    line-height: 210%;
+    margin-left: 15%;
+    margin-top: 86%;
+}
+
+.nachname{
+    color: black;
+    font-size: 100%;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.1;
+    margin-left: 5%;
+    margin-top: 85%;
+}
+
+.b2{
+    background-color: #f27920;
+    margin-left: 0.25%;
+    height: 55%;
+    width: 25%;
+    position: relative;
+    top: 25%;
+     
+}
+
+.b3{
+    background-color: #f27920;
+    margin-left: 0.25%;
+    height: 55%;
+    width: 15%; 
+    position: relative;
+    top: 45%;   
+}
+
+.b4{
+    background-color: #f27920;
+    margin-left: 0.25%;
+    height: 55%;
+    width: 7%;  
+    position: relative;
+    top: 10%;
+}
+
+.b5{
+    background-color: #f27920;
+    margin-left: 0.25%;
+    height: 55%;
+    width: 3%;    
+}
+
+.t1{
+    height: 50px;
+    width: 50px;
+    border-style: solid;
+}
+/*
+           <div class="daten2">4. junifestkonzert</div>
+            <p class="daten1">
+                juni-festwoche zürich<br>
+                1957<br>
+                <br>
+                tonhalle grosser saal<br>
+                dienstag 2. juli 20.15 uhr<br>
+                mittwoch 3. juli 20.15 uhr<br>
+                1957<br>
+                tonhallengesellschaft zürich<br>
+                leitung carl schuricht<br>
+                solisten<br>
+                maria stader sopran<br>
+                katharina marti alt<br>
+                josef traxel tenor<br>
+                otto von rohr bass<br>
+                gemischter chor zürich<br>
+                beethoven<br>
+                neunte sinfonie<br>
+                op. 125<br>
+                <br>
+                karten fr. 5.50 bis 16.50<br>
+                tonhallenkasse hug jecklin<br>
+                kuoni<br>
+                </p>
+.daten1{
+    color: black;
+    text-align: left;
+    font-size: 55%;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.daten2{
+    color: black;
+    text-align: right;
+    font-size: 55%;
+    font-family: 'Rubik', sans-serif;
+
+}
+*/
+
