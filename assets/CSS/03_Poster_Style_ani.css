@@ -109,7 +109,7 @@
     }
     100% {
         background-color: #f27920;
-        position: relative;
+        /*position: relative;*/
         top: 0px;
         left: 0px;
     }
