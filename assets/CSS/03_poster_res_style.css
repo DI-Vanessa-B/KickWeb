@@ -1,0 +1,308 @@
+.container {
+    background-color: darkgray;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.ablock {
+    background-color: #fffcdb;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/*orange blocks*/
+.b1 {
+    /*border: 1px solid black;*/
+    background-color: #f27920;
+    height: 50%;
+    width: 40%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.b2 {
+    background-color: #f27920;
+    height: 50%;
+    width: 25%;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.b3 {
+    margin-top: 1%;
+    background-color: #f27920;
+    height: 50%;
+    width: 47%;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    order: 1;
+}
+
+.b4 {
+    margin-top: 1%;
+    background-color: #f27920;
+    height: 50%;
+    width: 47%;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+}
+
+.b5 {
+    background-color: #f27920;
+    height: 50%;
+    width: 25%;
+    order: -1;
+}
+
+/*namen*/
+
+.vorname {
+    color: black;
+    text-align: right;
+    font-size: 200%;
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.1;
+    padding: 25px;
+}
+
+.nachname {
+    color: black;
+    font-size: 200%;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.1;
+    padding: 25px;
+}
+
+.daten1 {
+    font-size: 80%;
+    color: black;
+    text-align: left;
+    font-family: 'Rubik', sans-serif;
+    padding: 10px;
+}
+
+.daten2 {
+    color: black;
+    text-align: right;
+    font-size: 150%;
+    font-family: 'Rubik', sans-serif;
+    padding: 25px;
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        background-color: darkgray;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .ablock {
+        background-color: #f27920;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    /*orange blocks*/
+    .b1 {
+        /*border: 1px solid black;*/
+        background-color: black;
+        height: 50%;
+        width: 33%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-end;
+    }
+    
+    .b2 {
+        background-color: black;
+        height: 50%;
+        width: 33%;
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    
+    .b3 {
+        background-color: black;
+        height: 50%;
+        width: 33%;
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    
+    .b4 {
+        background-color: black;
+        height: 50%;
+        width: 33%;
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
+    
+    .b5 {
+        background-color: black;
+        height: 50%;
+        width: 33%;
+    }
+    
+    /*namen*/
+    
+    .vorname {
+        color: #fffcdb;
+        text-align: right;
+        font-size: 300%;
+        font-family: 'Rubik', sans-serif;
+        line-height: 1.1;
+        padding: 25px;
+    }
+    
+    .nachname {
+        color: #fffcdb;
+        font-size: 230%;
+        font-weight: bold;
+        font-family: 'Rubik', sans-serif;
+        line-height: 1.1;
+        padding: 25px;
+    }
+    
+    .daten1 {
+        color: #fffcdb;
+        text-align: left;
+        font-size: 80%;
+        font-family: 'Rubik', sans-serif;
+        padding: 10px;
+    }
+    
+    .daten2 {
+        color: #fffcdb;
+        text-align: right;
+        font-size: 150%;
+        font-family: 'Rubik', sans-serif;
+        padding: 25px;
+    } 
+}
+@media screen and (max-width: 720px) {
+    .container {
+        background-color: darkgray;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .ablock {
+        background-color: #fffcdb;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    /*orange blocks*/
+    .b1 {
+        /*border: 1px solid black;*/
+        background-color: black;
+        height: 50%;
+        width: 59%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        order: -1;
+    }
+    
+    .b2 {
+        background-color: black;
+        height: 50%;
+        width: 39%;
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+    }
+    
+    .b3 {
+        background-color: black;
+        height: 50%;
+        width: 64%;
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    
+    .b4 {
+        background-color: black;
+        height: 50%;
+        width: 34%;
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
+    
+    .b5 {
+        background-color: #fffcdb;
+        height: 50%;
+        width: 2%;
+    }
+    
+    /*namen*/
+    
+    .vorname {
+        color: #f27920;
+        text-align: right;
+        font-size: 230%;
+        font-family: 'Rubik', sans-serif;
+        line-height: 1.2;
+        padding: 2%;
+    }
+    
+    .nachname {
+        color: #f27920;
+        font-size: 230%;
+        font-weight: bold;
+        font-family: 'Rubik', sans-serif;
+        line-height: 1.1;
+        padding: 2%;
+    }
+    
+    .daten1 {
+        color: #f27920;
+        text-align: left;
+        font-size: 100%;
+        font-family: 'Rubik', sans-serif;
+        padding: 2%;
+    }
+    
+    .daten2 {
+        color: #f27920;
+        text-align: right;
+        font-size: 180%;
+        font-family: 'Rubik', sans-serif;
+        padding: 2%;
+    } 
+}

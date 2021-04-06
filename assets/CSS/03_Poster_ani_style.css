@@ -146,15 +146,6 @@
     }
 }
 
-@keyframes ani5{
-    from {
-        background-color: white;
-    }
-    to {
-        background-color: #fffcdb;
-    }
-}
-
 @keyframes text{
     from {
         color:  #fffcdb;
